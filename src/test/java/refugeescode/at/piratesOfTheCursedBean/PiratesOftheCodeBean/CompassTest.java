@@ -15,6 +15,7 @@ class CompassTest {
     void findDirectionOfCoursedCointest() {
         String result = compass.findDirectionOfCoursedCoin();
         Assertions.assertEquals(result ,"coursedCoin");
+
         Assertions.assertEquals(coursedCoin.isTheCoursedCoin(),true);
 
     }
